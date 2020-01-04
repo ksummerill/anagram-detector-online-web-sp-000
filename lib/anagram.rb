@@ -21,7 +21,7 @@ class Anagram
       # split word into arry of letters
       if word.split("") == @word
         word
-      end    
+      end
 
     end
   end
