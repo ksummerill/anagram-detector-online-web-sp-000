@@ -20,7 +20,7 @@ class Anagram
     array.detect do |word|
       # split word into arry of letters
       if word.split("") == @word
-        return word
+        word
       end    
 
     end
