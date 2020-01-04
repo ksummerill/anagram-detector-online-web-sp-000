@@ -22,7 +22,7 @@ class Anagram
       if word.split("") == @word
         return word
       end    
-      
+
     end
   end
 
